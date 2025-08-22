@@ -1,0 +1,32 @@
+.result{
+    margin-top: 30px;
+    width: 390px;
+    padding: 10px;
+    background: var(--fontColor3);
+    border-radius: 7px;
+    text-align: center;
+    color: var(--fontColor1);
+}
+
+.imcSpan{
+    color: var(--fontColor1);
+}
+
+.tabela{
+    background: var(--fontColor3);
+    color: var(--fontColor1);
+    margin-top: 10px;
+    width: 390px;
+    border-radius: 7px;
+    padding: 15px;
+    text-align: center;
+}
+
+@media(max-width: 500px){
+    .tabela{
+        width: 100%;
+    }
+    .result{
+        width: 100%;
+    }
+}

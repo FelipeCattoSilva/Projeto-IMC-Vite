@@ -1,0 +1,53 @@
+.box{
+    display: flex;
+    flex-direction: column;
+    background: var(--bgColor2);
+    width: 400px;
+    height: 350px;
+    border-radius: 7px;
+    padding: 40px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+.span{
+    font-size: 12px;
+}
+
+label{
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--fontColor1);
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+button{
+    border: nome;
+    background: var(--fontColor3);
+    color: var(--fontColor1);
+    font-size: 1.2rem;
+    border-radius: 7px;
+    margin-top: 20px;
+    height: 70px;
+}
+
+@media(max-width: 500px){
+    .box{
+        width: 100%;
+    }
+
+    button{
+        margin-top: 0;
+    }
+}
